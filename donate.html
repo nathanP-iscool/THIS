@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to Our Cause</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation with back button -->
+        <div class="navigation">
+            <a class="logo">
+                <img src="logo.svg" class="logo">
+                T.H.I.S.
+            </a>
+            <a href="index.html" class="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+        </div>
+        
+        <header>
+            <h1>Support Our Cause</h1>
+            <p>Your donation can make a real difference. Every contribution helps us continue our important work.<p class="fainter-text">This screen doesnt actually work</p></p>
+        </header>
+        
+        <div class="content">
+            <div class="donation-options">
+                <h2>Make a Donation</h2>
+                
+                <div class="amount-options">
+                    <div class="amount-option">$10</div>
+                    <div class="amount-option">$25</div>
+                    <div class="amount-option selected">$50</div>
+                    <div class="amount-option">$100</div>
+                    <div class="amount-option">$250</div>
+                </div>
+                
+                <div class="custom-amount">
+                    <input type="text" placeholder="Or enter custom amount">
+                </div>
+                
+                <div class="donation-type">
+                    <div class="donation-type-option selected">One-time</div>
+                    <div class="donation-type-option">Monthly</div>
+                    <div class="donation-type-option">Yearly</div>
+                </div>
+            </div>
+            
+            <div class="payment-info">
+                <h2>Payment Information</h2>
+                
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="John Doe">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="john@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="card">Card Number</label>
+                    <input type="text" id="card" placeholder="1234 5678 9012 3456">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="expiry">Expiry Date</label>
+                        <input type="text" id="expiry" placeholder="MM/YY">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" placeholder="123">
+                    </div>
+                </div>
+                
+                <button class="donate-button">Donate Now</button>
+                
+                <div class="security-note">
+                    <p><i class="fas fa-lock"></i> Your donation is secure and encrypted</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
